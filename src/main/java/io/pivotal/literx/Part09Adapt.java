@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,8 +19,6 @@ package io.pivotal.literx;
 import java.util.concurrent.CompletableFuture;
 
 import io.pivotal.literx.domain.User;
-import io.pivotal.literx.repository.ReactiveRepository;
-import io.pivotal.literx.repository.ReactiveUserRepository;
 import io.reactivex.Flowable;
 import io.reactivex.Observable;
 import io.reactivex.Single;
@@ -40,8 +38,6 @@ import reactor.core.publisher.Mono;
  * @author Sebastien Deleuze
  */
 public class Part09Adapt {
-
-	ReactiveRepository<User> repository = new ReactiveUserRepository();
 
 //========================================================================================
 
